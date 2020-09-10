@@ -1,0 +1,418 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10EndpointProtectionConfiguration",
+    "id":  "708e1b24-1077-47f4-a53b-9cd457699cb1",
+    "lastModifiedDateTime":  "2020-04-29T10:12:24.9113596Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-18T11:36:47.6383361Z",
+    "description":  "",
+    "displayName":  "NCSC Win10 Defender Settings (EP)",
+    "version":  18,
+    "dmaGuardDeviceEnumerationPolicy":  "deviceDefault",
+    "xboxServicesEnableXboxGameSaveTask":  false,
+    "xboxServicesAccessoryManagementServiceStartupMode":  "manual",
+    "xboxServicesLiveAuthManagerServiceStartupMode":  "manual",
+    "xboxServicesLiveGameSaveServiceStartupMode":  "manual",
+    "xboxServicesLiveNetworkingServiceStartupMode":  "manual",
+    "localSecurityOptionsBlockMicrosoftAccounts":  false,
+    "localSecurityOptionsBlockRemoteLogonWithBlankPassword":  false,
+    "localSecurityOptionsDisableAdministratorAccount":  false,
+    "localSecurityOptionsAdministratorAccountName":  null,
+    "localSecurityOptionsDisableGuestAccount":  false,
+    "localSecurityOptionsGuestAccountName":  null,
+    "localSecurityOptionsAllowUndockWithoutHavingToLogon":  false,
+    "localSecurityOptionsBlockUsersInstallingPrinterDrivers":  false,
+    "localSecurityOptionsBlockRemoteOpticalDriveAccess":  false,
+    "localSecurityOptionsFormatAndEjectOfRemovableMediaAllowedUser":  "notConfigured",
+    "localSecurityOptionsMachineInactivityLimit":  null,
+    "localSecurityOptionsMachineInactivityLimitInMinutes":  null,
+    "localSecurityOptionsDoNotRequireCtrlAltDel":  false,
+    "localSecurityOptionsHideLastSignedInUser":  false,
+    "localSecurityOptionsHideUsernameAtSignIn":  false,
+    "localSecurityOptionsLogOnMessageTitle":  null,
+    "localSecurityOptionsLogOnMessageText":  null,
+    "localSecurityOptionsAllowPKU2UAuthenticationRequests":  false,
+    "localSecurityOptionsAllowRemoteCallsToSecurityAccountsManagerHelperBool":  false,
+    "localSecurityOptionsAllowRemoteCallsToSecurityAccountsManager":  null,
+    "localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients":  "none",
+    "localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedServers":  "none",
+    "lanManagerAuthenticationLevel":  "lmNtlmV2AndNotLmOrNtm",
+    "lanManagerWorkstationDisableInsecureGuestLogons":  false,
+    "localSecurityOptionsClearVirtualMemoryPageFile":  false,
+    "localSecurityOptionsAllowSystemToBeShutDownWithoutHavingToLogOn":  false,
+    "localSecurityOptionsAllowUIAccessApplicationElevation":  false,
+    "localSecurityOptionsVirtualizeFileAndRegistryWriteFailuresToPerUserLocations":  false,
+    "localSecurityOptionsOnlyElevateSignedExecutables":  false,
+    "localSecurityOptionsAdministratorElevationPromptBehavior":  "notConfigured",
+    "localSecurityOptionsStandardUserElevationPromptBehavior":  "notConfigured",
+    "localSecurityOptionsSwitchToSecureDesktopWhenPromptingForElevation":  false,
+    "localSecurityOptionsDetectApplicationInstallationsAndPromptForElevation":  false,
+    "localSecurityOptionsAllowUIAccessApplicationsForSecureLocations":  false,
+    "localSecurityOptionsUseAdminApprovalMode":  false,
+    "localSecurityOptionsUseAdminApprovalModeForAdministrators":  false,
+    "localSecurityOptionsInformationShownOnLockScreen":  "notConfigured",
+    "localSecurityOptionsInformationDisplayedOnLockScreen":  "notConfigured",
+    "localSecurityOptionsDisableClientDigitallySignCommunicationsIfServerAgrees":  false,
+    "localSecurityOptionsClientDigitallySignCommunicationsAlways":  false,
+    "localSecurityOptionsClientSendUnencryptedPasswordToThirdPartySMBServers":  false,
+    "localSecurityOptionsDisableServerDigitallySignCommunicationsAlways":  false,
+    "localSecurityOptionsDisableServerDigitallySignCommunicationsIfClientAgrees":  false,
+    "localSecurityOptionsRestrictAnonymousAccessToNamedPipesAndShares":  false,
+    "localSecurityOptionsDoNotAllowAnonymousEnumerationOfSAMAccounts":  false,
+    "localSecurityOptionsAllowAnonymousEnumerationOfSAMAccountsAndShares":  false,
+    "localSecurityOptionsDoNotStoreLANManagerHashValueOnNextPasswordChange":  false,
+    "localSecurityOptionsSmartCardRemovalBehavior":  "lockWorkstation",
+    "defenderSecurityCenterDisableAppBrowserUI":  false,
+    "defenderSecurityCenterDisableFamilyUI":  false,
+    "defenderSecurityCenterDisableHealthUI":  false,
+    "defenderSecurityCenterDisableNetworkUI":  false,
+    "defenderSecurityCenterDisableVirusUI":  false,
+    "defenderSecurityCenterDisableAccountUI":  false,
+    "defenderSecurityCenterDisableClearTpmUI":  false,
+    "defenderSecurityCenterDisableHardwareUI":  false,
+    "defenderSecurityCenterDisableNotificationAreaUI":  false,
+    "defenderSecurityCenterDisableRansomwareUI":  false,
+    "defenderSecurityCenterDisableSecureBootUI":  false,
+    "defenderSecurityCenterDisableTroubleshootingUI":  false,
+    "defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI":  false,
+    "defenderSecurityCenterOrganizationDisplayName":  null,
+    "defenderSecurityCenterHelpEmail":  null,
+    "defenderSecurityCenterHelpPhone":  null,
+    "defenderSecurityCenterHelpURL":  null,
+    "defenderSecurityCenterNotificationsFromApp":  "notConfigured",
+    "defenderSecurityCenterITContactDisplay":  "notConfigured",
+    "windowsDefenderTamperProtection":  "notConfigured",
+    "firewallBlockStatefulFTP":  false,
+    "firewallIdleTimeoutForSecurityAssociationInSeconds":  null,
+    "firewallPreSharedKeyEncodingMethod":  "deviceDefault",
+    "firewallIPSecExemptionsAllowNeighborDiscovery":  false,
+    "firewallIPSecExemptionsAllowICMP":  false,
+    "firewallIPSecExemptionsAllowRouterDiscovery":  false,
+    "firewallIPSecExemptionsAllowDHCP":  false,
+    "firewallCertificateRevocationListCheckMethod":  "deviceDefault",
+    "firewallMergeKeyingModuleSettings":  false,
+    "firewallPacketQueueingMethod":  "deviceDefault",
+    "firewallProfileDomain":  null,
+    "firewallProfilePublic":  null,
+    "firewallProfilePrivate":  null,
+    "defenderAdobeReaderLaunchChildProcess":  "enable",
+    "defenderAttackSurfaceReductionExcludedPaths":  [
+
+                                                    ],
+    "defenderOfficeAppsOtherProcessInjectionType":  "block",
+    "defenderOfficeAppsOtherProcessInjection":  "enable",
+    "defenderOfficeCommunicationAppsLaunchChildProcess":  "enable",
+    "defenderOfficeAppsExecutableContentCreationOrLaunchType":  "block",
+    "defenderOfficeAppsExecutableContentCreationOrLaunch":  "enable",
+    "defenderOfficeAppsLaunchChildProcessType":  "block",
+    "defenderOfficeAppsLaunchChildProcess":  "enable",
+    "defenderOfficeMacroCodeAllowWin32ImportsType":  "block",
+    "defenderOfficeMacroCodeAllowWin32Imports":  "enable",
+    "defenderScriptObfuscatedMacroCodeType":  "block",
+    "defenderScriptObfuscatedMacroCode":  "enable",
+    "defenderScriptDownloadedPayloadExecutionType":  "block",
+    "defenderScriptDownloadedPayloadExecution":  "enable",
+    "defenderPreventCredentialStealingType":  "enable",
+    "defenderProcessCreationType":  "block",
+    "defenderProcessCreation":  "enable",
+    "defenderUntrustedUSBProcessType":  "block",
+    "defenderUntrustedUSBProcess":  "enable",
+    "defenderUntrustedExecutableType":  "block",
+    "defenderUntrustedExecutable":  "enable",
+    "defenderEmailContentExecutionType":  "block",
+    "defenderEmailContentExecution":  "enable",
+    "defenderAdvancedRansomewareProtectionType":  "enable",
+    "defenderGuardMyFoldersType":  "enable",
+    "defenderGuardedFoldersAllowedAppPaths":  [
+
+                                              ],
+    "defenderAdditionalGuardedFolders":  [
+
+                                         ],
+    "defenderNetworkProtectionType":  "enable",
+    "defenderExploitProtectionXml":  "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48TWl0aWdhdGlvblBvbGljeT48QXBwQ29uZmlnIEV4ZWN1dGFibGU9Ik9ORURSSVZFLkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48SW1hZ2VMb2FkIEJsb2NrUmVtb3RlSW1hZ2VMb2Fkcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJmaXJlZm94LmV4ZSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEZvcmNlUmVsb2NhdGVJbWFnZXM9InRydWUiIFJlcXVpcmVJbmZvPSJmYWxzZSIgQm90dG9tVXA9InRydWUiIEhpZ2hFbnRyb3B5PSJmYWxzZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9ImZsdGxkci5leGUiPjxERVAgRW5hYmxlPSJ0cnVlIiBFbXVsYXRlQXRsVGh1bmtzPSJmYWxzZSIgLz48SW1hZ2VMb2FkIEJsb2NrUmVtb3RlSW1hZ2VMb2Fkcz0idHJ1ZSIgLz48Q2hpbGRQcm9jZXNzIERpc2FsbG93Q2hpbGRQcm9jZXNzQ3JlYXRpb249InRydWUiIC8+PFBheWxvYWQgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlclBsdXM9InRydWUiIEVuYWJsZUltcG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZVJvcFN0YWNrUGl2b3Q9InRydWUiIEVuYWJsZVJvcENhbGxlckNoZWNrPSJ0cnVlIiBFbmFibGVSb3BTaW1FeGVjPSJ0cnVlIiAvPjwvQXBwQ29uZmlnPjxBcHBDb25maWcgRXhlY3V0YWJsZT0iR1JPT1ZFLkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48SW1hZ2VMb2FkIEJsb2NrUmVtb3RlSW1hZ2VMb2Fkcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PENoaWxkUHJvY2VzcyBEaXNhbGxvd0NoaWxkUHJvY2Vzc0NyZWF0aW9uPSJmYWxzZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IkFjcm9iYXQuZXhlIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PEFTTFIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgUmVxdWlyZUluZm89ImZhbHNlIiBCb3R0b21VcD0idHJ1ZSIgSGlnaEVudHJvcHk9ImZhbHNlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IkFjcm9SZDMyLmV4ZSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEZvcmNlUmVsb2NhdGVJbWFnZXM9InRydWUiIFJlcXVpcmVJbmZvPSJmYWxzZSIgQm90dG9tVXA9InRydWUiIEhpZ2hFbnRyb3B5PSJmYWxzZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJjaHJvbWUuZXhlIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJFWENFTC5FWEUiPjxERVAgRW5hYmxlPSJ0cnVlIiBFbXVsYXRlQXRsVGh1bmtzPSJmYWxzZSIgLz48QVNMUiBFbmFibGU9InRydWUiIEZvcmNlUmVsb2NhdGVJbWFnZXM9InRydWUiIC8+PFBheWxvYWQgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlclBsdXM9InRydWUiIEVuYWJsZUltcG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZVJvcFN0YWNrUGl2b3Q9InRydWUiIEVuYWJsZVJvcENhbGxlckNoZWNrPSJ0cnVlIiBFbmFibGVSb3BTaW1FeGVjPSJ0cnVlIiAvPjwvQXBwQ29uZmlnPjxBcHBDb25maWcgRXhlY3V0YWJsZT0iaWV4cGxvcmUuZXhlIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PEFTTFIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgUmVxdWlyZUluZm89ImZhbHNlIiBCb3R0b21VcD0idHJ1ZSIgSGlnaEVudHJvcHk9ImZhbHNlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IklORk9QQVRILkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJqYXZhLmV4ZSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9ImphdmF3LmV4ZSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9ImphdmF3cy5leGUiPjxERVAgRW5hYmxlPSJ0cnVlIiBFbXVsYXRlQXRsVGh1bmtzPSJmYWxzZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJMWU5DLkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJNU0FDQ0VTUy5FWEUiPjxERVAgRW5hYmxlPSJ0cnVlIiBFbXVsYXRlQXRsVGh1bmtzPSJmYWxzZSIgLz48QVNMUiBFbmFibGU9InRydWUiIEZvcmNlUmVsb2NhdGVJbWFnZXM9InRydWUiIC8+PFBheWxvYWQgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlclBsdXM9InRydWUiIEVuYWJsZUltcG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZVJvcFN0YWNrUGl2b3Q9InRydWUiIEVuYWJsZVJvcENhbGxlckNoZWNrPSJ0cnVlIiBFbmFibGVSb3BTaW1FeGVjPSJ0cnVlIiAvPjwvQXBwQ29uZmlnPjxBcHBDb25maWcgRXhlY3V0YWJsZT0iTVNQVUIuRVhFIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PEFTTFIgRW5hYmxlPSJ0cnVlIiBGb3JjZVJlbG9jYXRlSW1hZ2VzPSJ0cnVlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9Ik9JUy5FWEUiPjxERVAgRW5hYmxlPSJ0cnVlIiBFbXVsYXRlQXRsVGh1bmtzPSJmYWxzZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJPVVRMT09LLkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJwbHVnaW4tY29udGFpbmVyLmV4ZSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IlBPV0VSUE5ULkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJQUFRWSUVXLkVYRSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxBU0xSIEVuYWJsZT0idHJ1ZSIgRm9yY2VSZWxvY2F0ZUltYWdlcz0idHJ1ZSIgLz48UGF5bG9hZCBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0idHJ1ZSIgRW5hYmxlSW1wb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlUm9wU3RhY2tQaXZvdD0idHJ1ZSIgRW5hYmxlUm9wQ2FsbGVyQ2hlY2s9InRydWUiIEVuYWJsZVJvcFNpbUV4ZWM9InRydWUiIC8+PC9BcHBDb25maWc+PEFwcENvbmZpZyBFeGVjdXRhYmxlPSJWSVNJTy5FWEUiPjxERVAgRW5hYmxlPSJ0cnVlIiBFbXVsYXRlQXRsVGh1bmtzPSJmYWxzZSIgLz48QVNMUiBFbmFibGU9InRydWUiIEZvcmNlUmVsb2NhdGVJbWFnZXM9InRydWUiIC8+PFBheWxvYWQgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlclBsdXM9InRydWUiIEVuYWJsZUltcG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZVJvcFN0YWNrUGl2b3Q9InRydWUiIEVuYWJsZVJvcENhbGxlckNoZWNrPSJ0cnVlIiBFbmFibGVSb3BTaW1FeGVjPSJ0cnVlIiAvPjwvQXBwQ29uZmlnPjxBcHBDb25maWcgRXhlY3V0YWJsZT0iVlBSRVZJRVcuRVhFIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PEFTTFIgRW5hYmxlPSJ0cnVlIiBGb3JjZVJlbG9jYXRlSW1hZ2VzPSJ0cnVlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IldJTldPUkQuRVhFIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PEFTTFIgRW5hYmxlPSJ0cnVlIiBGb3JjZVJlbG9jYXRlSW1hZ2VzPSJ0cnVlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXJQbHVzPSJ0cnVlIiBFbmFibGVJbXBvcnRBZGRyZXNzRmlsdGVyPSJ0cnVlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IndtcGxheWVyLmV4ZSI+PERFUCBFbmFibGU9InRydWUiIEVtdWxhdGVBdGxUaHVua3M9ImZhbHNlIiAvPjxQYXlsb2FkIEVuYWJsZUV4cG9ydEFkZHJlc3NGaWx0ZXI9ImZhbHNlIiBFbmFibGVFeHBvcnRBZGRyZXNzRmlsdGVyUGx1cz0iZmFsc2UiIEVuYWJsZUltcG9ydEFkZHJlc3NGaWx0ZXI9ImZhbHNlIiBFbmFibGVSb3BTdGFja1Bpdm90PSJ0cnVlIiBFbmFibGVSb3BDYWxsZXJDaGVjaz0idHJ1ZSIgRW5hYmxlUm9wU2ltRXhlYz0idHJ1ZSIgLz48L0FwcENvbmZpZz48QXBwQ29uZmlnIEV4ZWN1dGFibGU9IndvcmRwYWQuZXhlIj48REVQIEVuYWJsZT0idHJ1ZSIgRW11bGF0ZUF0bFRodW5rcz0iZmFsc2UiIC8+PFBheWxvYWQgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlcj0idHJ1ZSIgRW5hYmxlRXhwb3J0QWRkcmVzc0ZpbHRlclBsdXM9InRydWUiIEVuYWJsZUltcG9ydEFkZHJlc3NGaWx0ZXI9InRydWUiIEVuYWJsZVJvcFN0YWNrUGl2b3Q9InRydWUiIEVuYWJsZVJvcENhbGxlckNoZWNrPSJ0cnVlIiBFbmFibGVSb3BTaW1FeGVjPSJ0cnVlIiAvPjwvQXBwQ29uZmlnPjwvTWl0aWdhdGlvblBvbGljeT4=",
+    "defenderExploitProtectionXmlFileName":  "esr.xml",
+    "defenderSecurityCenterBlockExploitProtectionOverride":  false,
+    "appLockerApplicationControl":  "notConfigured",
+    "deviceGuardLocalSystemAuthorityCredentialGuardSettings":  "enableWithUEFILock",
+    "deviceGuardEnableVirtualizationBasedSecurity":  true,
+    "deviceGuardEnableSecureBootWithDMA":  true,
+    "deviceGuardSecureBootWithDMA":  "notConfigured",
+    "deviceGuardLaunchSystemGuard":  "notConfigured",
+    "smartScreenEnableInShell":  true,
+    "smartScreenBlockOverrideForFiles":  true,
+    "applicationGuardEnabled":  false,
+    "applicationGuardEnabledOptions":  "notConfigured",
+    "applicationGuardBlockFileTransfer":  "notConfigured",
+    "applicationGuardBlockNonEnterpriseContent":  false,
+    "applicationGuardAllowPersistence":  false,
+    "applicationGuardForceAuditing":  false,
+    "applicationGuardBlockClipboardSharing":  "notConfigured",
+    "applicationGuardAllowPrintToPDF":  false,
+    "applicationGuardAllowPrintToXPS":  false,
+    "applicationGuardAllowPrintToLocalPrinters":  false,
+    "applicationGuardAllowPrintToNetworkPrinters":  false,
+    "applicationGuardAllowVirtualGPU":  false,
+    "applicationGuardAllowFileSaveOnHost":  false,
+    "bitLockerAllowStandardUserEncryption":  false,
+    "bitLockerDisableWarningForOtherDiskEncryption":  false,
+    "bitLockerEnableStorageCardEncryptionOnMobile":  false,
+    "bitLockerEncryptDevice":  false,
+    "bitLockerRecoveryPasswordRotation":  "notConfigured",
+    "defenderDisableScanArchiveFiles":  null,
+    "defenderAllowScanArchiveFiles":  null,
+    "defenderDisableBehaviorMonitoring":  null,
+    "defenderAllowBehaviorMonitoring":  null,
+    "defenderDisableCloudProtection":  null,
+    "defenderAllowCloudProtection":  null,
+    "defenderEnableScanIncomingMail":  null,
+    "defenderEnableScanMappedNetworkDrivesDuringFullScan":  null,
+    "defenderDisableScanRemovableDrivesDuringFullScan":  null,
+    "defenderAllowScanRemovableDrivesDuringFullScan":  null,
+    "defenderDisableScanDownloads":  null,
+    "defenderAllowScanDownloads":  null,
+    "defenderDisableIntrusionPreventionSystem":  null,
+    "defenderAllowIntrusionPreventionSystem":  null,
+    "defenderDisableOnAccessProtection":  null,
+    "defenderAllowOnAccessProtection":  null,
+    "defenderDisableRealTimeMonitoring":  null,
+    "defenderAllowRealTimeMonitoring":  null,
+    "defenderDisableScanNetworkFiles":  null,
+    "defenderAllowScanNetworkFiles":  null,
+    "defenderDisableScanScriptsLoadedInInternetExplorer":  null,
+    "defenderAllowScanScriptsLoadedInInternetExplorer":  null,
+    "defenderBlockEndUserAccess":  null,
+    "defenderAllowEndUserAccess":  null,
+    "defenderScanMaxCpuPercentage":  null,
+    "defenderCheckForSignaturesBeforeRunningScan":  null,
+    "defenderCloudBlockLevel":  null,
+    "defenderCloudExtendedTimeoutInSeconds":  null,
+    "defenderDaysBeforeDeletingQuarantinedMalware":  null,
+    "defenderDisableCatchupFullScan":  null,
+    "defenderDisableCatchupQuickScan":  null,
+    "defenderEnableLowCpuPriority":  null,
+    "defenderFileExtensionsToExclude":  [
+
+                                        ],
+    "defenderFilesAndFoldersToExclude":  [
+
+                                         ],
+    "defenderProcessesToExclude":  [
+
+                                   ],
+    "defenderPotentiallyUnwantedAppAction":  null,
+    "defenderScanDirection":  null,
+    "defenderScanType":  null,
+    "defenderScheduledQuickScanTime":  null,
+    "defenderScheduledScanDay":  null,
+    "defenderScheduledScanTime":  null,
+    "defenderSignatureUpdateIntervalInHours":  null,
+    "defenderSubmitSamplesConsentType":  null,
+    "defenderDetectedMalwareActions":  null,
+    "firewallRules":  [
+
+                      ],
+    "userRightsAccessCredentialManagerAsTrustedCaller":  {
+                                                             "state":  "notConfigured",
+                                                             "localUsersOrGroups":  [
+
+                                                                                    ]
+                                                         },
+    "userRightsAllowAccessFromNetwork":  {
+                                             "state":  "notConfigured",
+                                             "localUsersOrGroups":  [
+
+                                                                    ]
+                                         },
+    "userRightsBlockAccessFromNetwork":  {
+                                             "state":  "notConfigured",
+                                             "localUsersOrGroups":  [
+
+                                                                    ]
+                                         },
+    "userRightsActAsPartOfTheOperatingSystem":  {
+                                                    "state":  "notConfigured",
+                                                    "localUsersOrGroups":  [
+
+                                                                           ]
+                                                },
+    "userRightsLocalLogOn":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsDenyLocalLogOn":  {
+                                     "state":  "notConfigured",
+                                     "localUsersOrGroups":  [
+
+                                                            ]
+                                 },
+    "userRightsBackupData":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsChangeSystemTime":  {
+                                       "state":  "notConfigured",
+                                       "localUsersOrGroups":  [
+
+                                                              ]
+                                   },
+    "userRightsCreateGlobalObjects":  {
+                                          "state":  "notConfigured",
+                                          "localUsersOrGroups":  [
+
+                                                                 ]
+                                      },
+    "userRightsCreatePageFile":  {
+                                     "state":  "notConfigured",
+                                     "localUsersOrGroups":  [
+
+                                                            ]
+                                 },
+    "userRightsCreatePermanentSharedObjects":  {
+                                                   "state":  "notConfigured",
+                                                   "localUsersOrGroups":  [
+
+                                                                          ]
+                                               },
+    "userRightsCreateSymbolicLinks":  {
+                                          "state":  "notConfigured",
+                                          "localUsersOrGroups":  [
+
+                                                                 ]
+                                      },
+    "userRightsCreateToken":  {
+                                  "state":  "notConfigured",
+                                  "localUsersOrGroups":  [
+
+                                                         ]
+                              },
+    "userRightsDebugPrograms":  {
+                                    "state":  "notConfigured",
+                                    "localUsersOrGroups":  [
+
+                                                           ]
+                                },
+    "userRightsRemoteDesktopServicesLogOn":  {
+                                                 "state":  "notConfigured",
+                                                 "localUsersOrGroups":  [
+
+                                                                        ]
+                                             },
+    "userRightsDelegation":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsGenerateSecurityAudits":  {
+                                             "state":  "notConfigured",
+                                             "localUsersOrGroups":  [
+
+                                                                    ]
+                                         },
+    "userRightsImpersonateClient":  {
+                                        "state":  "notConfigured",
+                                        "localUsersOrGroups":  [
+
+                                                               ]
+                                    },
+    "userRightsIncreaseSchedulingPriority":  {
+                                                 "state":  "notConfigured",
+                                                 "localUsersOrGroups":  [
+
+                                                                        ]
+                                             },
+    "userRightsLoadUnloadDrivers":  {
+                                        "state":  "notConfigured",
+                                        "localUsersOrGroups":  [
+
+                                                               ]
+                                    },
+    "userRightsLockMemory":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsManageAuditingAndSecurityLogs":  {
+                                                    "state":  "notConfigured",
+                                                    "localUsersOrGroups":  [
+
+                                                                           ]
+                                                },
+    "userRightsManageVolumes":  {
+                                    "state":  "notConfigured",
+                                    "localUsersOrGroups":  [
+
+                                                           ]
+                                },
+    "userRightsModifyFirmwareEnvironment":  {
+                                                "state":  "notConfigured",
+                                                "localUsersOrGroups":  [
+
+                                                                       ]
+                                            },
+    "userRightsModifyObjectLabels":  {
+                                         "state":  "notConfigured",
+                                         "localUsersOrGroups":  [
+
+                                                                ]
+                                     },
+    "userRightsProfileSingleProcess":  {
+                                           "state":  "notConfigured",
+                                           "localUsersOrGroups":  [
+
+                                                                  ]
+                                       },
+    "userRightsRemoteShutdown":  {
+                                     "state":  "notConfigured",
+                                     "localUsersOrGroups":  [
+
+                                                            ]
+                                 },
+    "userRightsRestoreData":  {
+                                  "state":  "notConfigured",
+                                  "localUsersOrGroups":  [
+
+                                                         ]
+                              },
+    "userRightsTakeOwnership":  {
+                                    "state":  "notConfigured",
+                                    "localUsersOrGroups":  [
+
+                                                           ]
+                                },
+    "bitLockerSystemDrivePolicy":  {
+                                       "encryptionMethod":  null,
+                                       "startupAuthenticationRequired":  false,
+                                       "startupAuthenticationBlockWithoutTpmChip":  false,
+                                       "startupAuthenticationTpmUsage":  "blocked",
+                                       "startupAuthenticationTpmPinUsage":  "blocked",
+                                       "startupAuthenticationTpmKeyUsage":  "blocked",
+                                       "startupAuthenticationTpmPinAndKeyUsage":  "blocked",
+                                       "minimumPinLength":  null,
+                                       "recoveryOptions":  null,
+                                       "prebootRecoveryEnableMessageAndUrl":  false,
+                                       "prebootRecoveryMessage":  null,
+                                       "prebootRecoveryUrl":  null
+                                   },
+    "bitLockerFixedDrivePolicy":  {
+                                      "encryptionMethod":  null,
+                                      "requireEncryptionForWriteAccess":  false,
+                                      "recoveryOptions":  null
+                                  },
+    "bitLockerRemovableDrivePolicy":  {
+                                          "encryptionMethod":  null,
+                                          "requireEncryptionForWriteAccess":  false,
+                                          "blockCrossOrganizationWriteAccess":  false
+                                      }
+}

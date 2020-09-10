@@ -1,0 +1,30 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsIdentityProtectionConfiguration",
+    "id":  "6377d6ef-3c64-4f5c-b672-592fcfc9fcc9",
+    "lastModifiedDateTime":  "2020-03-27T14:12:11.6319639Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-13T12:50:12.0340344Z",
+    "description":  "Enables Hello for Business",
+    "displayName":  "NCSC Win10 HelloForBusiness",
+    "version":  2,
+    "useSecurityKeyForSignin":  false,
+    "enhancedAntiSpoofingForFacialFeaturesEnabled":  true,
+    "pinMinimumLength":  5,
+    "pinMaximumLength":  null,
+    "pinUppercaseCharactersUsage":  "allowed",
+    "pinLowercaseCharactersUsage":  "allowed",
+    "pinSpecialCharactersUsage":  "allowed",
+    "pinExpirationInDays":  0,
+    "pinPreviousBlockCount":  0,
+    "pinRecoveryEnabled":  true,
+    "securityDeviceRequired":  true,
+    "unlockWithBiometricsEnabled":  true,
+    "useCertificatesForOnPremisesAuthEnabled":  false,
+    "windowsHelloForBusinessBlocked":  false
+}

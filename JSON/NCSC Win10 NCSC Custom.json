@@ -1,0 +1,79 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "34b92a25-ff19-49b2-a45e-2aabab9fd236",
+    "lastModifiedDateTime":  "2020-04-01T08:24:47.222133Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-13T12:50:12.2589456Z",
+    "description":  "",
+    "displayName":  "NCSC Win10 NCSC Custom",
+    "version":  11,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Network Isolation - Enterprise Proxy Servers Are Authoritative",
+                            "description":  "Network Isolation - Enterprise Proxy Servers Are Authoritative",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseProxyServersAreAuthoritative",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Error Reporting - Disable Windows Error Reporting",
+                            "description":  "Error Reporting - Disable Windows Error Reporting",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/ErrorReporting/DisableWindowsErrorReporting",
+                            "value":  "\u003cenabled/\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingBoolean",
+                            "displayName":  "Disable User ESP",
+                            "description":  "Disable Enrollment Status Page post Build",
+                            "omaUri":  "./Vendor/MSFT/DMClient/Provider/MS DM Server/FirstSyncStatus/SkipUserStatusPage",
+                            "value":  true
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingBoolean",
+                            "displayName":  "Disable Device ESP",
+                            "description":  "Disable Enrollment Status Page post Build",
+                            "omaUri":  "./Vendor/MSFT/DMClient/Provider/MS DM Server/FirstSyncStatus/SkipDeviceStatusPage",
+                            "value":  true
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Disable first sign-in animation",
+                            "description":  "Disable first sign-in animation",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnableFirstLogonAnimation",
+                            "value":  0,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "ConfigureSystemGuardLaunch",
+                            "description":  "ConfigureSystemGuardLaunch",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/ConfigureSystemGuardLaunch",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "DmaGuard/DeviceEnumerationPolicy",
+                            "description":  "more control over the enumeration of external DMA capable devices incompatible with DMA Remapping/device memory isolation and sandboxing.",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/DmaGuard/DeviceEnumerationPolicy",
+                            "value":  0,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "MDMWinsOverGP",
+                            "description":  "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-controlpolicyconflict",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/ControlPolicyConflict/MDMWinsOverGP",
+                            "value":  1,
+                            "isReadOnly":  false
+                        }
+                    ]
+}
