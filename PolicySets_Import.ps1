@@ -485,7 +485,6 @@ Foreach-object {
                 $JSON_PolicySet = $JSON_Convert | Select-Object -Property * -ExcludeProperty Id,createdDateTime,lastModifiedDateTime,Status,ErrorCode,Items
 
                 $JSON_Output = $JSON_PolicySet | ConvertTo-Json -Depth 5
-
                 
                 $JSON_Items = $JSON_Convert | Select-Object -Property items 
                 $JSON_ItemsOutput = $JSON_Items.items | ConvertTo-Json -depth 5        
@@ -512,23 +511,13 @@ Foreach-object {
                                         {
 
                                             $PolicysetID = $NewPolicySet.id
-                                             
-                                           # Write-Host "PS Item = " $PS_item.displayName
-                                            
+                                       
                                             $DeviceConfiguration =  Get-DeviceConfigurationPolicy -name $PS_Item.displayName
-
-                                          #  Write-host "This is the Device Configuration ID " $DeviceConfiguration.id
                                             
                                             $PS_item.payloadId = $DeviceConfiguration.id
 
-                                          #  Write-Host $Ps_item.payloadId
-
-                                         #   Write-Host $PS_Item
-
                                             $PS_Item = $PS_Item | ConvertTo-Json -Depth 5
-
-                                          #  Write-Host $PS_Item
-                                        
+                                       
                                             $StartItems = "`{`"addedPolicySetItems`"`:["
                                             $EndItems = "]}"
                                             $FormatOutput = $StartItems+$PS_Item+$EndItems 
