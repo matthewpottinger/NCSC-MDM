@@ -584,7 +584,7 @@ $AADGroupConfigure = 'Do you want to configure Group Assignment [Y/N]'
     }
     }
     else {
-        write-host "Device Configuration policie will be created with no permissions" -ForegroundColor red
+        write-host "Device Configuration policy will be created with no assignments" -ForegroundColor red
     }
 
 
