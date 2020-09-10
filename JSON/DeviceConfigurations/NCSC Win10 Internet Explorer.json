@@ -11,7 +11,7 @@
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "createdDateTime":  "2020-04-30T06:25:23.1924031Z",
     "description":  "",
-    "displayName":  "NCSC Win 10 Internet Explorer",
+    "displayName":  "NCSC Win10 Internet Explorer",
     "version":  1,
     "omaSettings":  [
                         {

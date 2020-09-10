@@ -7,7 +7,7 @@ See LICENSE in the project root for license information.
 #>
 
 $ScriptDir = Split-Path $script:MyInvocation.MyCommand.Path
-$ImportPath = $ScriptDir+"\JSON"
+$ImportPath = $ScriptDir+"\JSON\DeviceConfigurations"
 
 
 ####################################################
@@ -325,7 +325,7 @@ $DCP_resource = "deviceManagement/deviceConfigurations"
         if($Name){
 
         $uri = "https://graph.microsoft.com/$graphApiVersion/$($DCP_resource)"
-        (Invoke-RestMethod -Uri $uri -Headers $authToken -Method Get).Value | Where-Object { ($_.'displayName').contains("$Name") }
+        (Invoke-RestMethod -Uri $uri -Headers $authToken -Method Get).Value | Where-Object { ($_.'displayName') -eq ("$Name") }
 
         }
 

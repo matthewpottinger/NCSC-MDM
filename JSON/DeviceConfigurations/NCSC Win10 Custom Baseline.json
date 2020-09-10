@@ -11,7 +11,7 @@
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "createdDateTime":  "2020-03-31T13:25:50.4786975Z",
     "description":  "",
-    "displayName":  "NCSC Win 10 Custom Baseline",
+    "displayName":  "NCSC Win10 Custom Baseline",
     "version":  13,
     "omaSettings":  [
                         {
