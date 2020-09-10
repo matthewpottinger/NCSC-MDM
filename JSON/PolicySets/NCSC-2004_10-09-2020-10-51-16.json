@@ -1,0 +1,159 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/policySets(items())/$entity",
+    "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f",
+    "createdDateTime":  "2020-09-10T09:43:32.4340219Z",
+    "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+    "displayName":  "NCSC-2004",
+    "description":  "",
+    "status":  "notAssigned",
+    "errorCode":  "noError",
+    "guidedDeploymentTags":  [
+
+                             ],
+    "roleScopeTags":  [
+                          "0"
+                      ],
+    "items@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/policySets(\u0027f32482ff-4a44-44fe-94be-b4d9d6547b2f\u0027)/items",
+    "items":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_f9d8bea2-e8ba-48de-b66d-7966e477b784_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4640411Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "f9d8bea2-e8ba-48de-b66d-7966e477b784",
+                      "itemType":  "#microsoft.graph.windows10CustomConfiguration",
+                      "displayName":  "NCSC Win10 AppLocker Settings",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_31611965-537c-443e-8310-7bc42637d42f_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "31611965-537c-443e-8310-7bc42637d42f",
+                      "itemType":  "#microsoft.graph.windows10CustomConfiguration",
+                      "displayName":  "NCSC Win10 Custom Baseline",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_268e081a-64bb-488c-ab55-8b8778d5a496_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "268e081a-64bb-488c-ab55-8b8778d5a496",
+                      "itemType":  "#microsoft.graph.windows10GeneralConfiguration",
+                      "displayName":  "NCSC Win10 Defender Settings",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_19a688aa-edb7-4682-ae32-59bcba80bbfa_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "19a688aa-edb7-4682-ae32-59bcba80bbfa",
+                      "itemType":  "#microsoft.graph.windows10EndpointProtectionConfiguration",
+                      "displayName":  "NCSC Win10 Defender Settings (EP)",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_cdbebb78-0f0e-4b99-bfd7-b29dfc40a585_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "cdbebb78-0f0e-4b99-bfd7-b29dfc40a585",
+                      "itemType":  "#microsoft.graph.windows10GeneralConfiguration",
+                      "displayName":  "NCSC Win10 DeviceRestrictions",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_cfb16a17-1d66-4b0f-8485-e273ebf3372a_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "cfb16a17-1d66-4b0f-8485-e273ebf3372a",
+                      "itemType":  "#microsoft.graph.windows10GeneralConfiguration",
+                      "displayName":  "NCSC Win10 Edge Settings",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_ae1d99c2-4421-4fe7-a1d1-893811dc0dba_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "ae1d99c2-4421-4fe7-a1d1-893811dc0dba",
+                      "itemType":  "#microsoft.graph.windows10EndpointProtectionConfiguration",
+                      "displayName":  "NCSC Win10 EndPointProtection",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_06cdf7fb-4194-4090-bcaa-eeabb8448481_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "06cdf7fb-4194-4090-bcaa-eeabb8448481",
+                      "itemType":  "#microsoft.graph.windowsIdentityProtectionConfiguration",
+                      "displayName":  "NCSC Win10 HelloForBusiness",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_5560f87d-8041-4168-b1c7-61f09950ba83_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "5560f87d-8041-4168-b1c7-61f09950ba83",
+                      "itemType":  "#microsoft.graph.windows10CustomConfiguration",
+                      "displayName":  "NCSC Win10 Internet Explorer",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  },
+                  {
+                      "@odata.type":  "#microsoft.graph.deviceConfigurationPolicySetItem",
+                      "id":  "f32482ff-4a44-44fe-94be-b4d9d6547b2f_ff9246a4-6b10-47c1-a1d9-74530d047dbe_DeviceConfigurationPolicy_Parcel",
+                      "createdDateTime":  "2020-09-10T09:43:32.4690267Z",
+                      "lastModifiedDateTime":  "2020-09-10T09:43:32Z",
+                      "payloadId":  "ff9246a4-6b10-47c1-a1d9-74530d047dbe",
+                      "itemType":  "#microsoft.graph.windows10CustomConfiguration",
+                      "displayName":  "NCSC Win10 NCSC Custom",
+                      "status":  "notAssigned",
+                      "errorCode":  "noError",
+                      "guidedDeploymentTags":  [
+
+                                               ]
+                  }
+              ]
+}
